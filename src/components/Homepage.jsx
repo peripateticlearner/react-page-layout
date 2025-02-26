@@ -1,6 +1,7 @@
 import Header from './Header';
 import SearchBar from './SearchBar';
 import EmployeeList from './EmployeeList';
+import Learner from './Learner';
 
 function Homepage() {
     return (
@@ -8,6 +9,7 @@ function Homepage() {
             <Header />
             <SearchBar />
             <EmployeeList />
+            <Learner />
         </main>
     );
 }
